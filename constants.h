@@ -1,4 +1,4 @@
-git#ifndef CONSTANTS_H
+#ifndef CONSTANTS_H
 #define CONSTANTS_H
 
 #include "snake_direction.h"
