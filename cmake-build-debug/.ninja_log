@@ -1,0 +1,19 @@
+# ninja log v5
+4	3164	6606676335420298	CMakeFiles/GUI_Like_Snake_in_C.dir/main.c.obj	c78b01c8f01730eb
+16	858	6600985458204129	CMakeFiles/GUI_Like_Snake_in_C.dir/api.c.obj	63c5056e3ed27834
+3165	3680	6606676340645013	GUI_Like_Snake_in_C.exe	2b2daae1d58959c4
+21	107	6600985450716362	CMakeFiles/GUI_Like_Snake_in_C.dir/point.c.obj	1c2d33b8978179d2
+90	3154	6606676335370439	CMakeFiles/GUI_Like_Snake_in_C.dir/state_settings.c.obj	a3d9a1c2a285a989
+19	124	6600985450872570	CMakeFiles/GUI_Like_Snake_in_C.dir/list.c.obj	bad3a4517385ac2c
+86	3157	6606676335410324	CMakeFiles/GUI_Like_Snake_in_C.dir/gui.c.obj	542ff92e24899a2e
+2	94	6600985450550021	CMakeFiles/GUI_Like_Snake_in_C.dir/constants.c.obj	db80c233eea1a40
+82	3162	6606676335410324	CMakeFiles/GUI_Like_Snake_in_C.dir/state_menu.c.obj	c0c5cb65a4d569be
+79	3165	6606676335470174	CMakeFiles/GUI_Like_Snake_in_C.dir/state_play.c.obj	69fb3ef8b4caef6b
+13	634	6606790313677822	build.ninja	518b982c1adb102a
+15	98	6600990875769664	CMakeFiles/GUI_Like_Snake_in_C.dir/settings.c.obj	d136333794050e1f
+65	431	6607857939032817	CMakeFiles/GUI_Like_Snake_in_C.dir/constants.c.obj	db80c233eea1a40
+10	3521	6607857969770943	CMakeFiles/GUI_Like_Snake_in_C.dir/main.c.obj	c78b01c8f01730eb
+70	3523	6607857969782756	CMakeFiles/GUI_Like_Snake_in_C.dir/state_settings.c.obj	a3d9a1c2a285a989
+58	3531	6607857969916137	CMakeFiles/GUI_Like_Snake_in_C.dir/state_menu.c.obj	c0c5cb65a4d569be
+62	3532	6607857969926107	CMakeFiles/GUI_Like_Snake_in_C.dir/state_play.c.obj	69fb3ef8b4caef6b
+3532	4411	6607857978756181	GUI_Like_Snake_in_C.exe	2b2daae1d58959c4
