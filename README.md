@@ -1,1 +1,1 @@
-# GUI-Like-Snake-in-C
+# Snake-in-C
