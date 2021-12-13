@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: GUI_Like_Snake_in_C
+# Project: Snake_in_C
 # Configurations: Debug
 # =============================================================================
 
@@ -39,99 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/bezou/Programming/GUI-Like-Snake-in-C/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target GUI_Like_Snake_in_C
-
-
-#############################################
-# Order-only phony target for GUI_Like_Snake_in_C
-
-build cmake_object_order_depends_target_GUI_Like_Snake_in_C: phony || CMakeFiles/GUI_Like_Snake_in_C.dir
-
-build CMakeFiles/GUI_Like_Snake_in_C.dir/main.c.obj: C_COMPILER__GUI_Like_Snake_in_C_Debug C$:/Users/bezou/Programming/GUI-Like-Snake-in-C/main.c || cmake_object_order_depends_target_GUI_Like_Snake_in_C
-  DEP_FILE = CMakeFiles\GUI_Like_Snake_in_C.dir\main.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-
-build CMakeFiles/GUI_Like_Snake_in_C.dir/state_menu.c.obj: C_COMPILER__GUI_Like_Snake_in_C_Debug C$:/Users/bezou/Programming/GUI-Like-Snake-in-C/state_menu.c || cmake_object_order_depends_target_GUI_Like_Snake_in_C
-  DEP_FILE = CMakeFiles\GUI_Like_Snake_in_C.dir\state_menu.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-
-build CMakeFiles/GUI_Like_Snake_in_C.dir/state_play.c.obj: C_COMPILER__GUI_Like_Snake_in_C_Debug C$:/Users/bezou/Programming/GUI-Like-Snake-in-C/state_play.c || cmake_object_order_depends_target_GUI_Like_Snake_in_C
-  DEP_FILE = CMakeFiles\GUI_Like_Snake_in_C.dir\state_play.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-
-build CMakeFiles/GUI_Like_Snake_in_C.dir/state_settings.c.obj: C_COMPILER__GUI_Like_Snake_in_C_Debug C$:/Users/bezou/Programming/GUI-Like-Snake-in-C/state_settings.c || cmake_object_order_depends_target_GUI_Like_Snake_in_C
-  DEP_FILE = CMakeFiles\GUI_Like_Snake_in_C.dir\state_settings.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-
-build CMakeFiles/GUI_Like_Snake_in_C.dir/gui.c.obj: C_COMPILER__GUI_Like_Snake_in_C_Debug C$:/Users/bezou/Programming/GUI-Like-Snake-in-C/gui.c || cmake_object_order_depends_target_GUI_Like_Snake_in_C
-  DEP_FILE = CMakeFiles\GUI_Like_Snake_in_C.dir\gui.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-
-build CMakeFiles/GUI_Like_Snake_in_C.dir/constants.c.obj: C_COMPILER__GUI_Like_Snake_in_C_Debug C$:/Users/bezou/Programming/GUI-Like-Snake-in-C/constants.c || cmake_object_order_depends_target_GUI_Like_Snake_in_C
-  DEP_FILE = CMakeFiles\GUI_Like_Snake_in_C.dir\constants.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-
-build CMakeFiles/GUI_Like_Snake_in_C.dir/list.c.obj: C_COMPILER__GUI_Like_Snake_in_C_Debug C$:/Users/bezou/Programming/GUI-Like-Snake-in-C/list.c || cmake_object_order_depends_target_GUI_Like_Snake_in_C
-  DEP_FILE = CMakeFiles\GUI_Like_Snake_in_C.dir\list.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-
-build CMakeFiles/GUI_Like_Snake_in_C.dir/point.c.obj: C_COMPILER__GUI_Like_Snake_in_C_Debug C$:/Users/bezou/Programming/GUI-Like-Snake-in-C/point.c || cmake_object_order_depends_target_GUI_Like_Snake_in_C
-  DEP_FILE = CMakeFiles\GUI_Like_Snake_in_C.dir\point.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target GUI_Like_Snake_in_C
-
-
-#############################################
-# Link the executable GUI_Like_Snake_in_C.exe
-
-build GUI_Like_Snake_in_C.exe: C_EXECUTABLE_LINKER__GUI_Like_Snake_in_C_Debug CMakeFiles/GUI_Like_Snake_in_C.dir/main.c.obj CMakeFiles/GUI_Like_Snake_in_C.dir/state_menu.c.obj CMakeFiles/GUI_Like_Snake_in_C.dir/state_play.c.obj CMakeFiles/GUI_Like_Snake_in_C.dir/state_settings.c.obj CMakeFiles/GUI_Like_Snake_in_C.dir/gui.c.obj CMakeFiles/GUI_Like_Snake_in_C.dir/constants.c.obj CMakeFiles/GUI_Like_Snake_in_C.dir/list.c.obj CMakeFiles/GUI_Like_Snake_in_C.dir/point.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\GUI_Like_Snake_in_C.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = GUI_Like_Snake_in_C.exe
-  TARGET_IMPLIB = libGUI_Like_Snake_in_C.dll.a
-  TARGET_PDB = GUI_Like_Snake_in_C.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bezou\Programming\GUI-Like-Snake-in-C\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
+cmake_ninja_workdir = C$:/Users/bezou/Programming/Snake-in-C/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bezou\Programming\GUI-Like-Snake-in-C\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bezou\Programming\GUI-Like-Snake-in-C -BC:\Users\bezou\Programming\GUI-Like-Snake-in-C\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bezou\Programming\Snake-in-C\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bezou\Programming\Snake-in-C -BC:\Users\bezou\Programming\Snake-in-C\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -139,9 +53,95 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Snake_in_C
+
+
+#############################################
+# Order-only phony target for Snake_in_C
+
+build cmake_object_order_depends_target_Snake_in_C: phony || CMakeFiles/Snake_in_C.dir
+
+build CMakeFiles/Snake_in_C.dir/main.c.obj: C_COMPILER__Snake_in_C_Debug C$:/Users/bezou/Programming/Snake-in-C/main.c || cmake_object_order_depends_target_Snake_in_C
+  DEP_FILE = CMakeFiles\Snake_in_C.dir\main.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Snake_in_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Snake_in_C.dir
+
+build CMakeFiles/Snake_in_C.dir/state_menu.c.obj: C_COMPILER__Snake_in_C_Debug C$:/Users/bezou/Programming/Snake-in-C/state_menu.c || cmake_object_order_depends_target_Snake_in_C
+  DEP_FILE = CMakeFiles\Snake_in_C.dir\state_menu.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Snake_in_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Snake_in_C.dir
+
+build CMakeFiles/Snake_in_C.dir/state_play.c.obj: C_COMPILER__Snake_in_C_Debug C$:/Users/bezou/Programming/Snake-in-C/state_play.c || cmake_object_order_depends_target_Snake_in_C
+  DEP_FILE = CMakeFiles\Snake_in_C.dir\state_play.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Snake_in_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Snake_in_C.dir
+
+build CMakeFiles/Snake_in_C.dir/state_settings.c.obj: C_COMPILER__Snake_in_C_Debug C$:/Users/bezou/Programming/Snake-in-C/state_settings.c || cmake_object_order_depends_target_Snake_in_C
+  DEP_FILE = CMakeFiles\Snake_in_C.dir\state_settings.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Snake_in_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Snake_in_C.dir
+
+build CMakeFiles/Snake_in_C.dir/gui.c.obj: C_COMPILER__Snake_in_C_Debug C$:/Users/bezou/Programming/Snake-in-C/gui.c || cmake_object_order_depends_target_Snake_in_C
+  DEP_FILE = CMakeFiles\Snake_in_C.dir\gui.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Snake_in_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Snake_in_C.dir
+
+build CMakeFiles/Snake_in_C.dir/constants.c.obj: C_COMPILER__Snake_in_C_Debug C$:/Users/bezou/Programming/Snake-in-C/constants.c || cmake_object_order_depends_target_Snake_in_C
+  DEP_FILE = CMakeFiles\Snake_in_C.dir\constants.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Snake_in_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Snake_in_C.dir
+
+build CMakeFiles/Snake_in_C.dir/list.c.obj: C_COMPILER__Snake_in_C_Debug C$:/Users/bezou/Programming/Snake-in-C/list.c || cmake_object_order_depends_target_Snake_in_C
+  DEP_FILE = CMakeFiles\Snake_in_C.dir\list.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Snake_in_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Snake_in_C.dir
+
+build CMakeFiles/Snake_in_C.dir/point.c.obj: C_COMPILER__Snake_in_C_Debug C$:/Users/bezou/Programming/Snake-in-C/point.c || cmake_object_order_depends_target_Snake_in_C
+  DEP_FILE = CMakeFiles\Snake_in_C.dir\point.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Snake_in_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Snake_in_C.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Snake_in_C
+
+
+#############################################
+# Link the executable Snake_in_C.exe
+
+build Snake_in_C.exe: C_EXECUTABLE_LINKER__Snake_in_C_Debug CMakeFiles/Snake_in_C.dir/main.c.obj CMakeFiles/Snake_in_C.dir/state_menu.c.obj CMakeFiles/Snake_in_C.dir/state_play.c.obj CMakeFiles/Snake_in_C.dir/state_settings.c.obj CMakeFiles/Snake_in_C.dir/gui.c.obj CMakeFiles/Snake_in_C.dir/constants.c.obj CMakeFiles/Snake_in_C.dir/list.c.obj CMakeFiles/Snake_in_C.dir/point.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Snake_in_C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Snake_in_C.exe
+  TARGET_IMPLIB = libSnake_in_C.dll.a
+  TARGET_PDB = Snake_in_C.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\bezou\Programming\Snake-in-C\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build GUI_Like_Snake_in_C: phony GUI_Like_Snake_in_C.exe
+build Snake_in_C: phony Snake_in_C.exe
 
 # =============================================================================
 # Folder targets.
@@ -149,9 +149,9 @@ build GUI_Like_Snake_in_C: phony GUI_Like_Snake_in_C.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/bezou/Programming/GUI-Like-Snake-in-C/cmake-build-debug
+# Folder: C:/Users/bezou/Programming/Snake-in-C/cmake-build-debug
 
-build all: phony GUI_Like_Snake_in_C.exe
+build all: phony Snake_in_C.exe
 
 # =============================================================================
 # Built-in targets
